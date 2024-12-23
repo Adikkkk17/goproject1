@@ -72,8 +72,6 @@ func main() {
 		}
 	}
 
-	//----------------------------------------------------------------
-	// 2. Демонстрация Exercise 2 (Shapes)
 	fmt.Println("\n=== Exercise 2: Shapes Demo ===")
 	shapes := []Shapes.Shape{
 		Shapes.Rectangle{Length: 10, Width: 5},
@@ -89,8 +87,6 @@ func main() {
 	fmt.Println("Нажмите Enter, чтобы перейти к Exercise 3...")
 	scanner.Scan()
 
-	//----------------------------------------------------------------
-	// 3. Демонстрация Exercise 3 (Employee management)
 	fmt.Println("\n=== Exercise 3: Employee Management Demo ===")
 	company := Employees.NewCompany()
 
