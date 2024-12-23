@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"Main/Банк"
-	"Main/Библиотека"
-	"Main/Сотрудники"
-	"Main/Шейпы"
+	"Main/Bank"
+	"Main/Employees"
+	"Main/Library"
+	"Main/Shapes"
 )
 
 func main() {
@@ -132,7 +132,6 @@ func main() {
 			company.AddEmployee(fullEmp)
 
 		} else if cmd == "AddPart" {
-			// Добавляем PartTimeEmployee
 			fmt.Println("Введите: ID, Name, HourlyRate, HoursWorked (через запятую):")
 			if !scanner.Scan() {
 				break

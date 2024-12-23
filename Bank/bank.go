@@ -1,4 +1,4 @@
-package Библиотека
+package Bank
 
 import (
 	"fmt"

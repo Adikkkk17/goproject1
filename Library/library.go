@@ -1,4 +1,4 @@
-package Библиотека
+package Library
 
 import (
 	"fmt"

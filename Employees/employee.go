@@ -1,11 +1,10 @@
-package Сотрудники
+package Employees
 
 import (
 	"fmt"
 	"strconv"
 )
 
-// Интерфейс
 type Employee interface {
 	GetDetails() string
 }

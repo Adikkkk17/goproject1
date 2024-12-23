@@ -1,4 +1,4 @@
-package Шейпы
+package Shapes
 
 import (
 	"fmt"
